@@ -1,0 +1,36 @@
+{
+  "name": "ZUOReader",
+  "version": "0.0.0",
+  "description": "An article reader for what you want to buy",
+  "private": true,
+  "keywords": [
+    ""
+  ],
+  "scripts": {
+    "dev": "gulp dev & cooking watch",
+    "dist": "cooking build"
+  },
+  "author": "nicholas xue",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.13.1",
+    "normalize-css": "^2.3.1",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.6.1",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-inject": "^4.1.0",
+    "gulp-rev": "^7.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "run-sequence": "^1.2.2"
+  }
+}
