@@ -1,2 +1,6 @@
 # my-react-starter
-A react redux starter for myself!
+A react starter for myself!
+
+- git clone
+- npm install
+- npm run dev
